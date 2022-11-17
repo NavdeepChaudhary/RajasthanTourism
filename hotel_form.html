@@ -1,0 +1,52 @@
+<html>
+<h1> Hotel Reservation Form</h1><br>
+<h3> Please fill this form to book a room for the period you would like to stay.</h3><hr>
+<form>
+<label>Name</label>
+<input type="text" name="name" placeholder="First" maxlength="10"/>
+<input type="text" name="name" placeholder="Last" maxlength="10"/><br>
+<label>Address</label><br>
+<input type="text" name="address" placeholder="Street Address" maxlength="100"/><br>
+<input type="text" name="city" placeholder="City" maxlength="15"/> 
+<input type="text" name="state" placeholder="state" maxlength="30"/><br>
+<input type="text" name="postal/zip code" placeholder="postal/zip code" maxlength="30"/>
+<input type="text" name="country" placeholder="country" maxlength="15"/><br>
+<label> Email</label><br>
+<input type="email" name="email"placeholder="Email" maxlength="30"/>
+<label>Phone:</label>
+<input type="tel"  pattern="^[6-9]{1}[0-9]{9}$"name="tel" placeholder="Enter phone" maxlength="20"/><br>
+<label for="H" >SELECT HOTEL </label>
+<select type="dropdown" id="H">
+<option selected="selected" >--Choose Hotel--</option>
+<option>Radisson Jodhpur </option>
+<option>Lake Pichola Hotel</option>
+<option>Radisson Jodhpur </option>
+<option>Townhouse 837 Hotel Sarover </option>
+<option>Holiday Inn Jaipur City Centre</option>
+<option>Loft 24, Mansarovar</option>
+</option>Heritage Mohangarh Fort </option>
+</select><br>
+<label>
+Check-in:</label>
+<input type="date" name="check-in" />
+<label>Check-Out:</label>
+<input type="date" name="check-out"/>
+<h3>Which type of rooms youlike to book in Single?</h3>
+<input type="checkbox" name="subscribe"/>
+<label>Room 101</label><br>
+<input type="checkbox" name="subscribe"  />
+<label> Room 102</label><br>
+<input type="checkbox" name="subscribe"/>
+<Label> Room 103</label><br>
+<H3>Which rooms would you like to  book in DOUBLE?</H3>
+<input type="checkbox" name="subscribe"/>
+<label>Room 201</label><br>
+<input type="checkbox" name="subscribe"  />
+<label> Room 202</label><br>
+<input type="checkbox" name="subscribe"/>
+<Label> Room 203</label><br>
+<H3> Special mentions,requests or requirements</h3>
+<textarea rows="4" cols="40" id="comments">
+</textarea>
+<a href="file:///C:/Users/NAVJOT/Desktop/hotels.html"><input type="button" name="login" value="RESERVE" ></a>
+
